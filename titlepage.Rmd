@@ -1,0 +1,71 @@
+---
+title: Information processing in stated preference surveys \newline A case study on urban gardens
+author:
+  - name: Malte Welling
+    email: malte.welling@ioew.de
+    affiliation: IOEW
+  - name: Julian Sagebiel
+    email: julian.sagebiel@slu.se
+    affiliation: SLU
+  - name: Jens Rommel
+    email: jens.rommel@slu.se
+    affiliation: SLU
+    footnote: 1    
+
+
+  
+address:
+  - code: IOEW
+    address: Institute for Ecological Economy Research, Berlin, Germany and Brandenburg University of Technology Cottbus-Senftenberg, Germany
+  - code: SLU
+    address: Swedish University of Agricultural Sciences, Uppsala, Sweden
+    
+footnote:
+  - code: 1
+    text: "Corresponding Author: Jens Rommel, Swedish University of Agricultural Sciences, Department of Economics, Box 7013, 75007 Uppsala jens.rommel@slu.se"
+
+
+keywords:
+- discrete choice experiment;
+- environmental valuation;
+- information effects;
+- information recall;
+- survey engagement;
+- urban ecosystem services
+
+
+abstract: |
+  For valid preference elicitation, stated preference surveys must provide information on the good to be valued, and respondents must process and recall the information. Previous studies show that the amount and type of information can affect stated preferences and the validity of value estimates, but how respondents process this information has been less researched. Some studies find correlations between preferences and respondent engagement with the information, but our study is the first to randomly and exogenously manipulate factors of engagement in a stated preference survey. Drawing on stated preference guidance and psychological concepts, we estimate the effect of (1) quiz questions and (2) self-reference questions on (1) engagement, (2) information recall, and (3) stated preferences in a discrete choice experiment survey valuing the ecosystem services of urban gardens in the German cities of Berlin and Stuttgart. Our results indicate that respondents spend more time on the information page when confronted with quiz rather than self-reference questions. For both question types, we do not find effects on recall or stated preferences. Our results are consistent with the previously found relation between respondent engagement and stated preferences being endogenous to respondent characteristics. Furthermore, the results suggest that questions increasing engagement with survey information may affect information processing less than previously assumed, highlighting the importance of testing the understanding and recall of important information in pretests. \newline \newline \textbf{Acknowldegements} \newline \newline We gratefully acknowledge funding from the German Federal Ministry of Education and Research (FKZ: 033W107A-J, project GartenLeistungen) \newline \newline \textbf{Conflict of Interest} None  \newline \newline
+  
+  
+journal: "Journal of Environmental Economics and Management"
+date: "`r Sys.Date()`"
+linenumbers: false
+bibliography: references.bib
+csl: elsevier-harvard.csl
+output:
+  rticles::elsevier_article:
+    number_sections: yes
+header-includes:
+- \usepackage{ntheorem}
+- \usepackage{bm}
+- \newtheorem{hyp}{Hypothesis}
+- \usepackage{float}
+- \usepackage{dcolumn}
+- \floatplacement{figure}{H}
+- \floatplacement{table}{H}
+- \usepackage{pdflscape}
+- \usepackage{rotating}
+- \usepackage{mathtools}
+- \usepackage{tikz}
+- \usetikzlibrary{shapes.gates.logic.US,trees,positioning,arrows}
+- \raggedbottom
+- \usepackage[a4paper, total={6.5in, 8in}]{geometry}
+- \setlength{\textwidth}{170mm}
+- \setlength{\textheight}{230mm}
+- \theoremseparator{:}
+editor_options: 
+  chunk_output_type: console
+---
+
+

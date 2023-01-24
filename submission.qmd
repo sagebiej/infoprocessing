@@ -1,14 +1,14 @@
 ---
 title: Information processing in stated preference surveys \newline A case study on urban gardens
 keywords:
-- discrete choice experiment;
-- environmental valuation;
-- information effects;
-- information recall;
-- survey engagement;
+- discrete choice experiment
+- environmental valuation
+- information effects
+- information recall
+- survey engagement
 - urban ecosystem services
 abstract: |
-  For valid preference elicitation, stated preference surveys must provide information on the good to be valued, and respondents must process and recall the information. Previous studies show that the amount and type of information can affect stated preferences and the validity of value estimates, but how respondents process this information has been less researched. Some studies find correlations between preferences and respondent engagement with the information, but our study is the first to randomly and exogenously manipulate factors of engagement in a stated preference survey. Drawing on stated preference guidance and psychological concepts, we estimate the effect of quiz questions (asking about the content of the information) and self-reference questions (asking how the information personally relates to the respondent) on (i) engagement, (ii) information recall, and (iii) stated preferences in a discrete choice experiment survey valuing the ecosystem services of urban gardens in the German cities of Berlin and Stuttgart. Our results indicate that respondents spend more time on the information page when confronted with quiz rather than self-reference questions. For both question types, we do not find effects on recall or stated preferences. The results suggest that questions which increase engagement with survey information may affect information processing less than previously assumed, highlighting the importance of testing the understanding and recall of important information in pretests.
+  For valid preference elicitation, stated preference surveys must provide information on the good to be valued, and respondents must process and recall the information. Previous studies show that the amount and type of information can affect stated preferences and the validity of value estimates, but how respondents process this information has been less researched. Some studies find correlations between preferences and respondent engagement with the information, but our study is the first to randomly and exogenously manipulate factors of engagement in a stated preference survey. Drawing on stated preference guidance and psychological concepts, we estimate the effect of quiz questions (asking about the content of the information) and self-reference questions (asking how the information personally relates to the respondent) on (i) engagement, (ii) information recall, and (iii) stated preferences in a discrete choice experiment survey valuing the ecosystem services of urban gardens in the German cities of Berlin and Stuttgart. Our results indicate that respondents spend more time on the information page when confronted with quiz rather than self-reference questions. For both question types, we do not find effects on recall or stated preferences. The results suggest that questions which increase engagement offer no simple fix to enhance information processing. Thus, alternative ways of reinforcing engagement, comprehension, and information recall in stated preference surveys should be developed and applied.
 
 date: "`r Sys.Date()`"
 bibliography: references.bib
@@ -163,9 +163,9 @@ related to the information were posed.
 	September 2020 before the start of data collection. We report all pre-registered analysis in this paper, but also engage in additional explorative analysis. The pre-registration is available under this link:
 	\url{https://aspredicted.org/blind.php?x=2aq63r}. More details are provided at the end of the methods section.
 
-Using ordinary least squares regressions, we investigate the effect of the manipulations on three outcomes: (i) time spent on relevant survey pages, (ii) correctly evaluated recall statements about the information after preference elicitation, and (iii) opt-out choices in the choice experiment. To analyze the effects of the manipulations on the willingness-to-pay estimates, we estimate a mixed logit model with treatment interaction terms. Additionally, we estimate a mixed logit model allowing willingness-to-pay to correlate with the time spent on the information page. This enables us to investigate whether the finding from previous studies that engagement and stated preferences are correlated can be replicated with our data. It also allows us to compare these potential correlations with the causal relations identified in the first mixed logit model with experimental manipulations.
+Using ordinary least squares regressions, we investigate the effect of the manipulations on three outcomes: (i) time spent on relevant survey pages, (ii) correctly evaluated recall statements about the information after preference elicitation, and (iii) status quo choices in the choice experiment. To analyze the effects of the manipulations on the willingness-to-pay estimates, we estimate a mixed logit model with treatment interaction terms. Additionally, we estimate a mixed logit model allowing willingness-to-pay to correlate with the time spent on the information page. This enables us to investigate whether the finding from previous studies that engagement and stated preferences are correlated can be replicated with our data. It also allows us to compare these potential correlations with the causal relations identified in the first mixed logit model with experimental manipulations.
 
-This study contributes to the stated preference literature in two ways: It is the first study to test empirically the recommendation to reinforce respondent engagement in stated preference surveys with quiz questions and the first to investigate how self-reference questions affect engagement and value estimates in stated preferences. Hence, our results inform recommendations concerning whether practitioners should include such questions when designing valuation surveys. Furthermore, our study is the first to use random exogenous manipulations of engagement with the information in stated preferences. This allows us to test whether the findings from previous research, namely that engagement with survey information correlates with stated preferences, is
+This study contributes to the stated preference literature in two ways: It is the first study to test empirically how quiz and self-reference questions affect engagement, information recall and value estimates in a stated preference survey. Hence, our results inform recommendations concerning whether practitioners should include such questions when designing valuation surveys. Furthermore, our study is the first to use random exogenous manipulations of engagement with the information in stated preferences. This allows us to test whether the findings from previous research, namely that engagement with survey information correlates with stated preferences, is
 causal. The results can shed light on how survey information affects stated
 preferences as well as to what extent heterogeneity in engagement can explain preference heterogeneity among respondents.
 
@@ -185,8 +185,7 @@ assigned to one of the six versions. The versions only differed on one
 survey page before the discrete choice experiment. This page first
 provided information about two types of urban gardens, allotment garden
 areas (*Kleingartenanlagen*) and community gardens
-(*Gemeinschaftsgärten*). This information was seen by all respondents,
-independent of the treatment to which they were assigned:[^2]
+(*Gemeinschaftsgärten*), to all respondents, independent of the treatment to which they were assigned:[^2]
 
 [^2]: The questionnaire was presented to respondents in German. All text
 	described in this paper is translated to English by the authors.
@@ -223,9 +222,8 @@ animals and plants, and connect adjacent habitats.*
 
 The additional information paragraph was designed to mimic commonly used
 information scripts which have a strong effect on stated preferences: The paragraph describes
-the impact of urban gardens, but only covers their benefits. A non-use value, unfamiliarity and new information have been related
-to strong information effects [@hoehn2002; @bateman_first_2004;
-@hasselstrom2014] - all these factors apply to some degree: The described benefits for biodiversity likely have non-use value for respondents. Community
+the impact of urban gardens, but only covers their benefits. Further factors related to strong information effects, such as a non-use value, unfamiliarity of the good and new information [@hoehn2002; @bateman_first_2004;
+@hasselstrom2014], apply to some degree: The described benefits for biodiversity likely have non-use value for respondents. Community
 gardens are rather unfamiliar to respondents, as only 24% of our respondents stated they had ever visited one. Most probably the information concerning the impact of
 gardens on cooling and pollutant retention is also new for many
 respondents.
@@ -427,7 +425,7 @@ The discrete choice experiment consisted of a sequence of eight choice
 tasks. Each choice task included one alternative labeled as an allotment
 garden area and one alternative labeled as a community garden. Respondents
 were asked to choose their most preferred option. Respondents
-could also indicate that they did not want to create either of the two gardens (opt-out).
+could also indicate that they did not want to create either of the two gardens (status quo choice).
 Figure \ref{fig-excs} shows an example choice task.
 
 
@@ -455,7 +453,7 @@ attributes in a multinomial logit model with priors taken from the pretest
 
 After the discrete choice experiment, respondents answered questions on
 choice certainty, perceptions of survey consequentiality and
-credibility, and their reasons for choosing the opt-out option. This was
+credibility, and their reasons for choosing the status quo alternative. This was
 followed by eight statements about the information provided on the page,
 including the treatments. For each statement, respondents could
 choose between the options "correct", "false", or
@@ -552,8 +550,8 @@ kable(soziodem, "latex",caption ="Socio-demographic characteristics \\label{tab:
 
 # Methods
 
-Our analysis is based on two different modeling approaches. First, we use ordinary least squares (OLS) regressions to regress i) time spent on relevant survey pages, ii) the number of correctly evaluated recall statements, and iii) the number of opt-out choices on the treatment variables and selected control variables. These models show how the treatments and respondent characteristics affect survey engagement, information recall and stated preferences. Second, for a more nuanced picture of the effect on stated preferences, we estimate willingness-to-pay values for the attributes in the choice experiment with mixed logit models. The first mixed logit model with treatment interactions tests how our treatments affect willingness-to pay-values. The second model with time interactions tests for correlations between engagement and stated preferences to enable a comparison with the results of previous studies [in particular, @holmes1998effect;
-@vista2009if; @tienhaara2020]. Table \ref{tab:factors} shows the coding of the manipulations that are used in the same fashion in all models investigating their effects.
+Our analysis is based on two different modeling approaches. First, we use ordinary least squares (OLS) regressions to analyze how the treatments and respondent characteristics affect i) time spent on relevant survey pages, ii) the number of correctly evaluated recall statements, and iii) the number of status quo choices. These models show the effects on survey engagement, information recall and stated preferences. Second, for a more nuanced picture of the effect on stated preferences, we estimate willingness-to-pay values for the attributes in the choice experiment with mixed logit models. The first mixed logit model with treatment interactions tests how our treatments affect willingness-to pay-values. The second model with time interactions tests for correlations between engagement and stated preferences to enable a comparison with the results of previous studies [in particular, @holmes1998effect;
+@vista2009if; @tienhaara2020]. Table \ref{tab:factors} shows the coding of the binary treatment variables that are used in the same fashion in all models investigating their effects.
 
 
 ```{=latex}
@@ -568,7 +566,7 @@ Description <- c("The information script was shown.", "" , "The quiz questions w
 Levels <- c("0 if not shown","1 if shown","0 if not shown","1 if shown","0 if not shown","1 if shown")
 fact <- data.frame(Factor,Description,Levels)
 
-kable(fact, "latex",caption ="Coding of manipulations \\label{tab:factors}",booktabs = T, linesep = "")%>%
+kable(fact, "latex",caption ="Coding of treatment variables \\label{tab:factors}",booktabs = T, linesep = "")%>%
   kable_styling(latex_options =c("hold_position"))%>%
   kable_styling(full_width = T) %>%
   column_spec(1,width = "3.5cm") %>%
@@ -600,7 +598,7 @@ Y=\alpha+\beta_1*INFO+\beta_2*QUIZ+\beta_3*SELF \\ +\beta_4*INFO*QUIZ+\beta_5*IN
 \end{equation}
 ```
 
-where $Y$ is the dependent variable being i) time in seconds spent on the screen with information about the two types of urban gardens, ii) time in seconds spent for the total questionnaire excluding the screen with information, iii) time in seconds spent on the choice experiment, iv) the number of correctly evaluated recall statements about the information ranging from zero to eight (as indicator for information recall), and v) the number of opt-out choices ranging from zero to eight. The variables INFO, QUIZ and SELF
+where $Y$ is the dependent variable being i) time in seconds spent on the screen with information about the two types of urban gardens, ii) time in seconds spent for the total questionnaire excluding the screen with information, iii) time in seconds spent on the choice experiment, iv) the number of correctly evaluated recall statements about the information ranging from zero to eight (as indicator for information recall), and v) the number of status quo choices ranging from zero to eight. The variables INFO, QUIZ and SELF
 are the manipulations described in Table \ref{tab:factors}.
 ${CONTROL}$ is a vector of control variables, including age, gender,
 education, mode of recruitment as well as the usage of allotment gardens and community
@@ -694,7 +692,7 @@ The specification is similar to the mixed logit model described above with the d
 
 
 ## Pre-registered analysis and outcomes
-We pre-registered key outcomes and steps of our analysis [^5]. All six experimental conditions described above were part of the pre-registration. We defined the time spent on the information page, the number of correctly evaluated recall statements, the number of opt-out choices and the willingness-to-pay for the attributes as our main outcomes for engagement, recall and stated preferences, respectively. We also specified OLS regressions and mixed logit models in willingness-to-pay space. We did not, however, pre-register the mixed logit model with time interactions that we use to explore the relation between time and stated preferences found by previous studies.
+We pre-registered key outcomes and steps of our analysis [^5]. All six experimental conditions described above were part of the pre-registration. We defined the time spent on the information page, the number of correctly evaluated recall statements, the number of status quo choices and the willingness-to-pay for the attributes as our main outcomes for engagement, recall and stated preferences, respectively. We also specified OLS regressions and mixed logit models in willingness-to-pay space. We did not, however, pre-register the mixed logit model with time interactions that we use to explore the relation between time and stated preferences found by previous studies.
 
 [^5]: The pre-registration is available under this link:
 	\url{https://aspredicted.org/blind.php?x=2aq63r}].
@@ -765,7 +763,7 @@ no impact on the number of correct answers. In Appendix D, we provide output fro
 
 
 To estimate the effect of our manipulations on stated
-preferences, we estimate 1) an OLS model predicting the number of opt-out
+preferences, we estimate 1) an OLS model predicting the number of status quo
 choices and 2) a mixed logit model in willingness-to-pay space with the
 treatment variables as interaction. While the OLS model reveals the
 effect of our manipulations on choosing one of the gardens in general,
@@ -780,10 +778,10 @@ all treatment variables are not statistically significant and very small,
 ranging from 0.01 to 0.23. In contrast, some of the control
 variables are statistically significant. An increase
 in age by 10 years increases the
-number of opt-out choices by nearly 0.3. People not using allotment gardens
-and community gardens opt out nearly one time more often than people who use them. Overall, the models indicate that the additional
+number of status quo choices by nearly 0.3. People not using allotment gardens
+and community gardens choose the status quo alternative nearly one time more often than people who use them. Overall, the models indicate that the additional
 information, as well as the quiz and self-reference questions, have no
-effect on how often respondents opt out in the choice experiment. Appendix D shows output from four different count data regression models as robustness tests, and the models show neither large nor statistically significant treatment effects.
+effect on how often respondents choose the status quo in the choice experiment. Appendix D shows output from four different count data regression models as robustness tests, and the models show neither large nor statistically significant treatment effects.
 
 
 ```{=latex}
@@ -794,7 +792,7 @@ effect on how often respondents opt out in the choice experiment. Appendix D sho
 ```{r model_3_output, echo=F, message=FALSE, warning=FALSE, results="asis" , eval=TRUE}
 
 texreg(list(model_3,model_3_sozio) ,
-  	 caption = "Results of OLS predicting number of opt-out choices",
+  	 caption = "Results of OLS predicting number of status quo choices",
   	 caption.above = TRUE,
   	 custom.model.names = c("Model 1","Model 2"),
   	 single.row = TRUE,
@@ -1002,7 +1000,7 @@ pretesting to assess whether necessary information is understood and recalled. I
 not, alternative ways of providing important information like videos,
 pictures or diagrams could be considered.
 
-While we do not find treatment effects on stated preferences, we find significant correlations betweenstated preferences and the time spent on the information page, replicating the findings of previous studies [@holmes1998effect; @vista2009if; @tienhaara2020]. Our results suggest that the previously found correlations might reflect heterogeneity in respondent characteristics rather than a causal effect of engagement on stated preferences. This may impede enhancing information processing by enforcing engagement with the survey design. Instead, it is
+While we do not find treatment effects on stated preferences, we find significant correlations between stated preferences and the time spent on the information page, replicating the findings of previous studies [@holmes1998effect; @vista2009if; @tienhaara2020]. Our results suggest that the previously found correlations might reflect heterogeneity in respondent characteristics rather than a causal effect of engagement on stated preferences. This may impede enhancing information processing by enforcing engagement with the survey design. Instead, it is
 important to think carefully about target populations and sampling, as
 respondent characteristics such as sociodemographic variables and prior information can matter more for knowledge about the good than information provided in the survey.
 
@@ -1023,6 +1021,10 @@ whether these questions lead to improved engagement and recall. Finally, eye-tra
 can help to better understand the effect of quiz and self-reference
 questions. One could, for example, investigate if people cross-check
 their answers with the information provided.
+
+\section*{Statement on data and code availability}
+
+The manuscript was produced in quarto and all files, including data and code, required to reproduce the manuscript are available on Github \url{https://github.com/sagebiej/infoprocessing}.
 
 \newpage
 
@@ -1104,9 +1106,9 @@ their answers with the information provided.
 
 \newpage
 
-\section*{Appendix D: Count models for quiz questions and opt-outs}
+\section*{Appendix D: Count models for information recall and status quo choices}
 
-Table \ref{tbl-optoutquiz} and Table \ref{tbl-optoutcount} complement the OLS models investigating the effects of the treatments on the number of correct recall statements and the number of opt out choices. For correct statements, we estimated a Poisson and a negative binomial model. For the opt-out choices we estimated additional zero inflated and hurdle count models because these models account for large frequencies of zeros [@zeileis2008], which are present in this case. All in all, the results are consistent with the OLS results. There are no significant effects of the treatments on the number of correctly evaluated recall statements nor the number of opt out choices.  
+Table \ref{tbl-optoutquiz} and Table \ref{tbl-optoutcount} complement the OLS models investigating the effects of the treatments on the number of correct recall statements and the number of status quo choices. For correct statements, we estimated a Poisson and a negative binomial model. For the status quo choices we estimated additional zero inflated and hurdle count models because these models account for large frequencies of zeros [@zeileis2008], which are present in this case. All in all, the results are consistent with the OLS results. There are no significant effects of the treatments on the number of correctly evaluated recall statements nor the number of status quo choices.  
 
 ```{=latex}
 \spacingset{1}
@@ -1140,7 +1142,7 @@ coef_names = c("Intercept","Information","Quiz questions","Self-reference questi
 
 texreg(Optoutcountmodels,  omit.coef = "Zero" , custom.coef.names = coef_names ,
    	stars = c(0.01, 0.05, 0.1), custom.note = ("\\parbox{0.75\\linewidth}{\\vspace{2pt} Notes: ***, **, and * indicate 1\\%, 5\\%, and 10\\% significance levels. Standard errors in parentheses. Coefficients for the second equation in the Hurdle and Zero Inflated model are not displayed.}" ) ,
-caption = "Count regression models for opt out choices" , label = "tbl-optoutcount" , caption.above = TRUE)
+caption = "Count regression models for status quo choices" , label = "tbl-optoutcount" , caption.above = TRUE)
 ```
 
 ```{=tex}

@@ -165,6 +165,9 @@ related to the information were posed.
 
 Using ordinary least squares regressions, we investigate the effect of the manipulations on three outcomes: (i) time spent on relevant survey pages, (ii) correctly evaluated recall statements about the information after preference elicitation, and (iii) opt-out choices in the choice experiment. To analyze the effects of the manipulations on the willingness-to-pay estimates, we estimate a mixed logit model with treatment interaction terms. Additionally, we estimate a mixed logit model allowing willingness-to-pay to correlate with the time spent on the information page. This enables us to investigate whether the finding from previous studies that engagement and stated preferences are correlated can be replicated with our data. It also allows us to compare these potential correlations with the causal relations identified in the first mixed logit model with experimental manipulations.
 
+We find that respondents confronted with quiz questions spend more time on the information page than those in the information-only and self-reference questions treatment. For both question types, we do not find large or statistically significant effects on recall or stated preferences, suggesting that questions about the provided information cannot easily reinforce the processing and recall of information. However, in accordance with previous studies [@holmes1998effect; @vista2009if; @tienhaara2020], we find statistically significant correlations between time spent on the information page and stated preferences. The two results indicate that the previously found correlations might reflect heterogeneity in respondent characteristics rather than a causal effect of engagement on stated preferences.
+
+
 This study contributes to the stated preference literature in two ways: It is the first study to test empirically the recommendation to reinforce respondent engagement in stated preference surveys with quiz questions and the first to investigate how self-reference questions affect engagement and value estimates in stated preferences. Hence, our results inform recommendations concerning whether practitioners should include such questions when designing valuation surveys. Furthermore, our study is the first to use random exogenous manipulations of engagement with the information in stated preferences. This allows us to test whether the findings from previous research, namely that engagement with survey information correlates with stated preferences, is
 causal. The results can shed light on how survey information affects stated
 preferences as well as to what extent heterogeneity in engagement can explain preference heterogeneity among respondents.
@@ -175,7 +178,7 @@ The first part of the questionnaire provided respondents with information on the
 used to answer this paper’s research question. In the following
 part, respondents participated in a discrete choice experiment with eight
 choice sets. Afterwards, respondents answered follow-up questions and evaluated eight recall statements testing their recall of the information provided before the choice experiment. The questionnaire ended with questions on
-socio-demographic characteristics.
+socio-demographic characteristics. We included a back button on each survey page so that respondents had the option to go back to previous pages.
 
 
 ## Information provision and treatments

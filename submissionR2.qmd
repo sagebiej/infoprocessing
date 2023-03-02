@@ -1,5 +1,40 @@
 ---
 title: Information processing in stated preference surveys \newline A case study on urban gardens
+author:
+  - name:  Malte Welling
+    email: malte.welling@ioew.de
+    affiliations:
+        - id: ioew
+          name: Institute for Ecological Economy Research (IÖW)
+          department: Environmental Policy and Governance
+          city: Berlin, Germany
+        - id: Cottbus
+          name: Brandenburg University of Technology
+          department: Chair of Environmental Economics
+          city: Cottbus, Germany
+    attributes:
+          corresponding: true
+    note: This paper is published in Journal of Environmental Economics and Management Vol. 119. \url{https://doi.org/10.1016/j.jeem.2023.102798}
+    
+  - name: Julian Sagebiel
+    email: julian.sagebiel@idiv.de
+    affiliations: 
+        - id: idiv
+          name: German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig
+          department: Biodiversity Economics
+          city: Leipzig, Germany
+    attributes:
+          corresponding: false
+
+  - name: Jens Rommel
+    email: jens.rommel@slu.se
+    affiliations:
+        - id: slu
+          name: Swedish University of Agricultural Sciences
+          department: Department of Economics
+          city: Uppsala, Sweden
+          postal-code:     
+
 keywords:
 - discrete choice experiment
 - environmental valuation
@@ -10,7 +45,7 @@ keywords:
 abstract: |
   For valid preference elicitation, stated preference surveys must provide information on the good to be valued, and respondents must process and recall the information. Previous studies show that the amount and type of information can affect stated preferences and the validity of value estimates, but how respondents process this information has been less researched. Some studies find correlations between preferences and respondent engagement with the information, but our study is the first to randomly and exogenously manipulate factors of engagement in a stated preference survey. Drawing on stated preference guidance and psychological concepts, we estimate the effect of quiz questions (asking about the content of the information) and self-reference questions (asking how the information personally relates to the respondent) on (i) engagement, (ii) information recall, and (iii) stated preferences in a discrete choice experiment survey valuing the ecosystem services of urban gardens in the German cities of Berlin and Stuttgart. Our results indicate that respondents spend more time on the information page when confronted with quiz rather than self-reference questions. For both question types, we do not find effects on recall or stated preferences. The results suggest that questions which increase engagement with survey information may affect information processing less than previously assumed, highlighting the importance of testing the understanding and recall of important information in pretests.
 
-date: "`r Sys.Date()`"
+date: "March 2023"
 bibliography: references.bib
 format:
   elsevier-pdf:
@@ -138,8 +173,8 @@ preference elicitation. Long-standing psychological literature
 concludes that the depth of information processing matters for how well
 information is retained and later recalled [@craik1972levels;
 @van1988information]. In the context of stated preferences, a small
-number of studies open this black box and investigate how respondents
-engage with the information and how this matters for stated preferences.
+number of studies open this black box, investigating how respondents
+engage with information and how this matters for stated preferences.
 @balcombe2017examining and @ballco2019consumer use eye-tracking devices
 to show that respondents with higher visual attendance to the
 information have larger value estimates. Others find that stated
@@ -150,7 +185,7 @@ online experiments state a higher willingness-to-pay. Similarly,
 @hu2009consumers find that respondents who voluntarily access additional
 information choose different alternatives in a choice experiment than those who do not access this information. These previous studies on respondent engagement compare stated preferences between groups of respondents who differ in their engagement with the information according to observed indicators. However, due to potential endogeneity, this correlation does not necessarily imply a causal relationship between engagement and stated preferences. In particular, stated preferences and survey engagement are likely co-determined by underlying preferences. For example, respondents with strong preferences for the good to be valued could plausibly engage more with the information provided to them. At the same time, they could also exhibit a higher willingness-to-pay for this good. Our study is, to the best of our knowledge, the first to investigate a potential causal effect of respondents' engagement with the information on stated preferences, which we explore by employing random exogenous manipulations as a causal identification strategy.
 
-We insert two types of questions about the information directly after information provision and before preference elicitation to manipulate survey engagement and information processing. First, we follow @mathews2006and who suggest incorporating quiz questions that ask respondents about the content of the information into stated preference questionnaires to reinforce respondent comprehension. Similarly, @johnston_contemporary_2017 recommend supporting questions to engage respondents while they process presented information. However, we are  unaware of any previous empirical investigation of the effects of quiz questions in stated preference surveys. Second, psychology literature finds that self-reference questions lead to higher engagement with, and deeper processing of, the information compared to semantic questions, such as quizzes [@rogers1977self; @van1988information]. Self-reference questions are questions that ask how the information personally relates to the respondent, such as her previous experience, preferences or identity. By inducing deeper processing, they can lead to a better recall of the information than quiz questions. In the experiments by @rogers1977self, subjects are twice as likely to correctly recall information when asked self-reference compared to semantic questions. In the context of stated preference surveys, deeper processing of information about the good to be valued, such as being potentially induced by quiz and self-reference questions, may strengthen respondents’ adaptation of beliefs in response to the information and, consequently, affect stated preferences. If respondents cannot recall the provided information about the good at the time of preference elicitation, this information would less likely affect the beliefs underlying their responses.
+We insert two types of questions about the information directly after information provision and before preference elicitation to manipulate survey engagement and information processing. First, we follow @mathews2006and who suggest incorporating quiz questions that ask respondents about the content of the information into stated preference questionnaires to reinforce respondent comprehension. Similarly, @johnston_contemporary_2017 recommend supporting questions to engage respondents while they process presented information. However, we are  unaware of any previous empirical investigation of the effects of quiz questions in stated preference surveys. Second, psychology literature finds that self-reference questions lead to higher engagement with, and deeper processing of, the information compared to semantic questions, such as quizzes [@rogers1977self; @van1988information]. Self-reference questions are questions that ask how the information personally relates to the respondent, such as her previous experience, preferences or identity. By inducing deeper processing, self-reference questions can lead to a better recall of the information than quiz questions. In the experiments by @rogers1977self, subjects are twice as likely to correctly recall information when asked self-reference compared to semantic questions. In the context of stated preference surveys, deeper processing of information about the good to be valued, such as being potentially induced by quiz and self-reference questions, may strengthen respondents’ adaptation of beliefs in response to the information and, consequently, affect stated preferences. If respondents cannot recall the provided information about the good at the time of preference elicitation, this information would less likely affect the beliefs underlying their responses.
 
 This paper investigates whether integrating quiz and self-reference questions in stated preference surveys (i) improves engagement with the information, (ii) increases recall of the information, and (iii) affects stated preferences. We analyze the extent to which these effects differ between quiz (recommended in the stated
 preferences literature) and self-reference (recommended in the
@@ -160,7 +195,7 @@ related to the information were posed.
 
 [^1]: The research question, study design and
 	empirical strategy were pre-registered in
-	September 2020 before the start of data collection. We report all pre-registered analysis in this paper, but also engage in additional explorative analysis. The pre-registration is available under this link:
+	September 2020 before the start of data collection. We report all pre-registered analyses in this paper, but also engage in additional explorative analyses. The pre-registration is available under this link:
 	\url{https://aspredicted.org/blind.php?x=2aq63r}. More details are provided at the end of the methods section.
 
 Using ordinary least squares regressions, we investigate the effect of the manipulations on three outcomes: (i) time spent on relevant survey pages, (ii) correctly evaluated recall statements about the information after preference elicitation, and (iii) opt-out choices in the choice experiment. To analyze the effects of the manipulations on the willingness-to-pay estimates, we estimate a mixed logit model with treatment interaction terms. Additionally, we estimate a mixed logit model allowing willingness-to-pay to correlate with the time spent on the information page. This enables us to investigate whether the finding from previous studies that engagement and stated preferences are correlated can be replicated with our data. It also allows us to compare these potential correlations with the causal relations identified in the first mixed logit model with experimental manipulations.
@@ -228,7 +263,7 @@ The additional information paragraph was designed to mimic commonly used
 information scripts which have a strong effect on stated preferences: The paragraph describes
 the impact of urban gardens, but only covers their benefits. A non-use value, unfamiliarity and new information have been related
 to strong information effects [@hoehn2002; @bateman_first_2004;
-@hasselstrom2014] - all these factors apply to some degree: The described benefits for biodiversity likely have non-use value for respondents. Community
+@hasselstrom2014] -- all these factors apply to some degree: The described benefits for biodiversity likely have non-use value for respondents. Community
 gardens are rather unfamiliar to respondents, as only 24% of our respondents stated they had ever visited one. Most probably the information concerning the impact of
 gardens on cooling and pollutant retention is also new for many
 respondents.
@@ -640,7 +675,7 @@ term. The parameters $\beta_i$ and $\beta_{iC}$ measure the impact of a
 one-unit change in $X$ and $C$ on utility. Differences in preference
 parameters between the treatment groups are captured by the parameters
 of the interaction terms, namely by $\symbf{\beta_{T}}$.\
-The parameters which are indexed over $i$, are random parameters,
+The parameters which are indexed over $i$ are random parameters,
 following a predefined distribution. The mean value of the distribution
 reflects the mean preference while the standard deviation indicates how
 heterogeneous preferences are within the sample. An index for time, capturing the panel structure of the data, is omitted for readability.
@@ -666,7 +701,7 @@ than the effect on utility $\beta_{ik}$.
 \end{equation}
 ```
 All $w$ parameters are assumed to be normally and $\beta_c$
-Log-normally distributed. This model can be estimated with the maximum simulated
+log-normally distributed. This model can be estimated with the maximum simulated
 likelihood method [@Train2005].
 
 
@@ -717,7 +752,7 @@ Appendix B presents OLS estimates predicting the total time spent on the questio
 Table \ref{tbl-model_2_output} presents OLS estimates of the number of
 correctly evaluated recall statements about the information. Model 1 includes
 the experimental manipulations, while Model 2 adds socio-economic covariates
-(vector $\mathbf{CONTROL}$ in equation \eqref{eq:util} above). Respondents evaluated on average 6.2 of the 8 statements correctly. Note that this implies respondents knew the correct answer in, on average, around half of the cases, because they would have guessed correctly by chance in 2 of the remaining 4 statements. In contrast
+(vector $\mathbf{CONTROL}$ in equation \eqref{eq:util} above). Respondents evaluated on average 6.2 of the eight statements correctly. Note that this implies respondents knew the correct answer in, on average, around half of the cases, because they would have guessed correctly by chance in two of the remaining four statements. In contrast
 to the time spent on the screen, the manipulations only have small and mostly statistically insignificant effects on correctly evaluated statements. However, socio-economic covariates play a major role in correctly
 evaluating statements about the information. Younger
 respondents, more educated respondents, and respondents who regularly
@@ -773,7 +808,7 @@ choices and 2) a mixed logit model in willingness-to-pay space with the
 treatment variables as interaction. While the OLS model reveals the
 effect of our manipulations on choosing one of the gardens in general,
 the mixed logit model details the effects on the willingness-to-pay for specific
-attributes.
+attributes.F
 
 Table \ref{tbl-model_3_output} reports results from an OLS model with the
 treatment variables (Model 1) and with additional covariates (Model 2).
@@ -782,7 +817,7 @@ opts out in 2.5 of eight choice situations. The effects of
 all treatment variables are not statistically significant and very small,
 ranging from 0.01 to 0.23. In contrast, some of the control
 variables are statistically significant. An increase
-in age by 10 years increases the
+in age by ten years increases the
 number of opt-out choices by nearly 0.3. People not using allotment gardens
 and community gardens opt out nearly one time more often than people who use them. Overall, the models indicate that the additional
 information, as well as the quiz and self-reference questions, have no
@@ -1005,7 +1040,7 @@ pretesting to assess whether necessary information is understood and recalled. I
 not, alternative ways of providing important information like videos,
 pictures or diagrams could be considered.
 
-While we do not find treatment effects on stated preferences, we find significant correlations betweenstated preferences and the time spent on the information page, replicating the findings of previous studies [@holmes1998effect; @vista2009if; @tienhaara2020]. Our results suggest that the previously found correlations might reflect heterogeneity in respondent characteristics rather than a causal effect of engagement on stated preferences. This may impede enhancing information processing by enforcing engagement with the survey design. Instead, it is
+While we do not find treatment effects on stated preferences, we find significant correlations betweenstated preferences and the time spent on the information page, similar to the findings of previous studies [@holmes1998effect; @vista2009if; @tienhaara2020]. Our results suggest that the previously found correlations might reflect heterogeneity in respondent characteristics rather than a causal effect of engagement on stated preferences. This may impede enhancing information processing by enforcing engagement with the survey design. Instead, it is
 important to think carefully about target populations and sampling, as
 respondent characteristics such as sociodemographic variables and prior information can matter more for knowledge about the good than information provided in the survey.
 
@@ -1102,7 +1137,12 @@ their answers with the information provided.
 
 ```
 
+\section*{Statement on data and code availability}
 
+The manuscript was produced in quarto and all files, including data and code, required to reproduce the manuscript are available on Github \url{https://github.com/sagebiej/infoprocessing}.
+
+\section*{Acknowledgements}
+We gratefully acknowledge funding from the \grantsponsor{German Federal Ministry of Education and Research}[http://dx.doi.org/10.13039/501100002347] (\grantnumber{1}{FKZ: 033W107A-J}, project GartenLeistungen)
 
 
 \newpage

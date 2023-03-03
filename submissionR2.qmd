@@ -1142,7 +1142,7 @@ their answers with the information provided.
 The manuscript was produced in quarto and all files, including data and code, required to reproduce the manuscript are available on Github \url{https://github.com/sagebiej/infoprocessing}.
 
 \section*{Acknowledgements}
-We gratefully acknowledge funding from the \grantsponsor{German Federal Ministry of Education and Research}[http://dx.doi.org/10.13039/501100002347] (\grantnumber{1}{FKZ: 033W107A-J}, project GartenLeistungen)
+We gratefully acknowledge funding from the German Federal Ministry of Education and Research[http://dx.doi.org/10.13039/501100002347] (FKZ: 033W107A-J, project GartenLeistungen)
 
 
 \newpage
